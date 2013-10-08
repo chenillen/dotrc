@@ -1,0 +1,21 @@
+[user]
+	name = chenillen
+	email = chenillen@gmail.com
+[github]
+  user = chenillen
+  token = GITHUB_TOKEN
+[core]
+  editor = mate  # Change to whatever you want your default git editor to be
+  excludesfile = /Users/chenillen/.gitignore
+  quotepath = false
+[color]
+  status = auto
+  branch = auto
+  interactive = auto
+  diff = auto
+[pretty]
+  pretty-history = format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+[mergetool]
+	keepBackup = true
+[push]
+	default = simple
